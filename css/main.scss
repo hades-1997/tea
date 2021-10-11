@@ -1,0 +1,64 @@
+.navbar{
+    border-radius: 0px;
+    background-color: #2220;
+    border-color: #08080800;
+    padding-top: 20px;
+    .navbar-header{
+        .navbar-brand{
+            .logo{
+                width: 200px;
+                img{
+                    position: relative;
+                    margin-top: -40px;
+                    width: 50%;
+                }
+            }
+        }
+    }
+    .navbar-collapse{
+        .navbar-nav{
+            .open{
+                a{
+                    background-color:#08080800;
+                    color: #9f9f9f;
+                    &:hover, &:focus{
+                        background-color:#08080800;
+                    }
+                }
+            }
+            .active{
+                a {
+                    color: #9f9f9f;
+                    background-color: #08080800;
+                    &:focus, &:hover{
+                        color: #9f9f9f;
+                        background-color: #08080800;
+                    }
+                }
+            }
+            li{
+                a{
+                    &:hover{
+                        color: #9d9d9d;
+                    }
+                }
+            }
+            .dropdown{
+                &:hover {
+                    &.dropdown-menu{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+//css slider
+.container-fluid{
+    padding: 0;
+    #myCarousel{
+        height: 461px;
+        transform: translate3d(0px, 0px, 0px);
+        backface-visibility: hidden;
+    }
+}

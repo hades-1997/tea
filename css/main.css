@@ -1,0 +1,35 @@
+.navbar {
+  border-radius: 0px;
+  background-color: #2220;
+  border-color: #08080800;
+  padding-top: 20px; }
+  .navbar .navbar-header .navbar-brand .logo {
+    width: 200px; }
+    .navbar .navbar-header .navbar-brand .logo img {
+      position: relative;
+      margin-top: -40px;
+      width: 50%; }
+  .navbar .navbar-collapse .navbar-nav .open a {
+    background-color: #08080800;
+    color: #9f9f9f; }
+    .navbar .navbar-collapse .navbar-nav .open a:hover, .navbar .navbar-collapse .navbar-nav .open a:focus {
+      background-color: #08080800; }
+  .navbar .navbar-collapse .navbar-nav .active a {
+    color: #9f9f9f;
+    background-color: #08080800; }
+    .navbar .navbar-collapse .navbar-nav .active a:focus, .navbar .navbar-collapse .navbar-nav .active a:hover {
+      color: #9f9f9f;
+      background-color: #08080800; }
+  .navbar .navbar-collapse .navbar-nav li a:hover {
+    color: #9d9d9d; }
+  .navbar .navbar-collapse .navbar-nav .dropdown:hover.dropdown-menu {
+    display: block; }
+
+.container-fluid {
+  padding: 0; }
+  .container-fluid #myCarousel {
+    height: 461px;
+    transform: translate3d(0px, 0px, 0px);
+    backface-visibility: hidden; }
+
+/*# sourceMappingURL=main.css.map */
